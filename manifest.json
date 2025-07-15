@@ -1,0 +1,15 @@
+{
+  "name": "ESP32 控制器",
+  "short_name": "MotorCtrl",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007BFF",
+  "icons": [
+    {
+      "src": "/image/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}
