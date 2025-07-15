@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #007BFF, #87CEFA);
+  color: #333;
+  margin: 0;
+}
+.connectButton {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  width: 90%;
+  padding: 20px;
+  background: linear-gradient(to top, #3a3535, #484e53);
+  border-radius: 15px;
+  border: 1px solid #dce7f1;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 1s ease-out;
+}
+
+.row-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* 讓左右按鈕中間有間距 */
+  margin: 10px 0;
+}
+
+button {
+  padding: 12px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #007BFF, #0056b3);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
